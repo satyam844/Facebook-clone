@@ -1,0 +1,69 @@
+.HeaderLeft img{
+    height: 40px;
+}
+.Header {
+     display: flex;
+     padding: 15px 20px ;
+     justify-content: space-between;
+     position: sticky;
+     background-color: white;
+     z-index: 100;
+     top: 0%;
+     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+} 
+.HeaderLeft{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.Headerinput {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color:#eff2f5;
+    padding: 10px;
+ border-radius: 33px; 
+}
+.Headerinput input {
+   border: none;
+ outline-width: 0;
+ background-color: transparent;
+}
+
+.HeaderMiddle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.HeaderIcon  {
+    color: gray;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    cursor: pointer;
+}
+.HeaderIcon  :hover {
+  color:	#4267B2;
+  background-color: #eff2f5;
+   border-radius: 5px;
+   align-items:center;
+   /* padding: 0 30px; */
+   border-bottom: none;
+}
+
+.HeaderInfo {
+    display: flex;
+    align-items: center;
+}
+.HeaderInfo h4 {
+  display: flex;  
+  margin-left: 10px;
+}
+.HeaderRight{
+    display: flex;
+}
+
+.HeaderIcon__active .MuiSvgIcon-root {
+    color:	#4267B2;
+    border-bottom: 4px solid #4267B2;
+}
